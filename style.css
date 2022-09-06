@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    background-color: rgb(0, 0, 222);
+    display: flex;
+    color: white;
+    padding: 0px 12px;
+    size: 100%;
+    justify-content: space-between;
+    align-items:center;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.navbar h1{
+    font-family: sans-serif;
+}
+
+.navbar ul li{
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+.gambar{
+    background-image: url('Kumpulan Wallpaper Android Putih Keren.jfif');
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: -20px;
+}
+
+.contener{
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.about{
+    background-color:rgb(0, 0, 222);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -22px;
+    padding: 40px;
+}
+
+.hobi{
+    background-color: white;
+    text-align: center;
+}
+
+.hobi img{
+    border-radius: 8px;
+    width: 70%;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    right: 0;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+}
