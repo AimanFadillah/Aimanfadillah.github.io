@@ -204,6 +204,7 @@ body {
 
   .kelompok {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .gambar-1 {
