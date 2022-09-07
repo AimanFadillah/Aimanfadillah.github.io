@@ -204,13 +204,11 @@ body {
 
   .kelompok {
     display: flex;
-    flex-wrap: wrap;
   }
 
   .gambar-1 {
     background-color: rgb(141, 141, 141);
     padding: 5px;
-    width: 300px;
     font-size: 10px;
     color: white;
     font-family: sans-serif;
@@ -225,7 +223,6 @@ body {
   .gambar-2 {
     background-color: rgb(141, 141, 141);
     padding: 5px;
-    width: 300px;
     font-size: 10px;
     color: white;
     font-family: sans-serif;
@@ -241,7 +238,6 @@ body {
   .gambar-3 {
     background-color: rgb(141, 141, 141);
     padding: 5px;
-    width: 300px;
     font-size: 10px;
     color: white;
     font-family: sans-serif;
