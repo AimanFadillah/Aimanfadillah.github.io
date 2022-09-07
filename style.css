@@ -1,9 +1,143 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.navbar{
+.navbar {
+  position: fixed;
+  background-color: rgb(0, 0, 222);
+  display: flex;
+  color: white;
+  padding: 0px 12px;
+  size: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.navbar h1 {
+  font-family: sans-serif;
+}
+
+.navbar ul li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-right: 10px;
+}
+
+.gambar {
+  background-image: url("Kumpulan Wallpaper Android Putih Keren.jfif");
+  margin-top: 100px;
+  padding-top: 100px;
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: -20px;
+}
+
+.contener {
+  width: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.about {
+  background-color: rgb(0, 0, 222);
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: -22px;
+  padding: 40px;
+}
+
+.hobi {
+  background-color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.hobi h2 {
+  font-size: 40px;
+}
+
+.hobi img {
+  border-radius: 8px;
+}
+
+.kelompok {
+  display: flex;
+  justify-content: center;
+}
+
+.gambar-1 {
+  background-color: rgb(141, 141, 141);
+  padding: 5px;
+  width: 300px;
+  margin: 10px 15px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.gambar-1 img {
+  width: 100%;
+}
+
+.gambar-2 {
+  background-color: rgb(141, 141, 141);
+  padding: 5px;
+  width: 300px;
+  margin: 10px 15px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.gambar-2 img {
+  width: 100%;
+  height: 203px;
+}
+
+.gambar-3 {
+  background-color: rgb(141, 141, 141);
+  padding: 5px;
+  width: 300px;
+  margin: 10px 15px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.gambar-3 img {
+  width: 100%;
+  height: 203px;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  right: 0;
+  margin-top: -12px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
     position: fixed;
     background-color: rgb(0, 0, 222);
     display: flex;
@@ -11,36 +145,21 @@ body{
     padding: 0px 12px;
     size: 100%;
     justify-content: space-between;
-    align-items:center;
-    height: 100px;
+    align-items: center;
+    height: 50px;
     left: 0;
     right: 0;
     top: 0;
-    
-}
+  }
 
-.navbar h1{
-    font-family: sans-serif;
-}
-
-.navbar ul li{
+  .navbar ul li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
     margin-right: 10px;
-}
+  }
 
-.gambar{
-    background-image: url('Kumpulan Wallpaper Android Putih Keren.jfif');
-    margin-top: 100px;
-    padding-top: 100px;
-    height: 800px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: -20px;
-}
-
-.contener{
+  .contener {
     width: 60%;
     background-color: white;
     margin: auto;
@@ -48,28 +167,96 @@ body{
     border-radius: 8px;
     text-align: center;
     margin-bottom: 300px;
-}
+    font-size: 12px;
+  }
 
-.about{
-    background-color:rgb(0, 0, 222);
+  .gambar {
+    background-image: url("Kumpulan Wallpaper Android Putih Keren.jfif");
+    margin-top: 48px;
+    padding-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: -20px;
+  }
+
+  .about {
+    background-color: rgb(0, 0, 222);
     font-family: sans-serif;
     color: white;
     text-align: center;
     margin-top: -22px;
     padding: 40px;
-}
+    font-size: 14px;
+  }
 
-.hobi{
+  .hobi {
     background-color: white;
     text-align: center;
-}
+    font-size: 10px;
+  }
 
-.hobi img{
+  .hobi img {
     border-radius: 8px;
-    width: 70%;
-}
+    max-width: 70%;
+  }
 
-.footer{
+  .kelompok {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gambar-1 {
+    background-color: rgb(141, 141, 141);
+    padding: 5px;
+    width: 300px;
+    margin: 10px 15px;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .gambar-1 img {
+    width: 100%;
+  }
+
+  .gambar-2 {
+    background-color: rgb(141, 141, 141);
+    padding: 5px;
+    width: 300px;
+    margin: 10px 15px;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .gambar-2 img {
+    width: 100%;
+    height: 203px;
+  }
+
+  .gambar-3 {
+    background-color: rgb(141, 141, 141);
+    padding: 5px;
+    width: 300px;
+    margin: 10px 15px;
+    font-size: 10px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .gambar-3 img {
+    width: 100%;
+    height: 203px;
+  }
+
+  .footer {
     text-align: center;
     background-color: black;
     color: white;
@@ -79,4 +266,6 @@ body{
     padding-top: 20px;
     padding-bottom: 10px;
     margin-bottom: -10px;
+    font-size: 10px;
+  }
 }
