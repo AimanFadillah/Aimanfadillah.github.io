@@ -100,7 +100,7 @@ h5 {
   padding-top: 30px;
   margin-top: -15px;
   padding-bottom: 50px;
-  height: 300px;
+  height: 400px;
 }
 
 .kontak-me h1 {
@@ -112,9 +112,25 @@ h5 {
 }
 
 .isi {
-  text-align: center;
   font-family: sans-serif;
   margin: 10px 0px;
+  padding-left: 33%;
+  padding-right: 26%;
+}
+
+.box{
+  width: 80%;
+  height: 100px;
+}
+.panjang{
+  width: 80%;
+}
+
+.tombol{
+  background-color:green ;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .footer h3 {
@@ -130,7 +146,7 @@ h5 {
   margin-bottom: -10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .navbar ul li {
     font-size: 18px;
   }
@@ -155,7 +171,17 @@ h5 {
     margin: 10px auto;
   }
 
+  .isi {
+    font-family: sans-serif;
+    margin: 10px 0px;
+    padding-left: 15%;
+    padding-right: 0%;
+  }
+
+
   .footer {
     font-size: 10px;
   }
 }
+
+
