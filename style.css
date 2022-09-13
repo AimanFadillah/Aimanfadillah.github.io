@@ -29,6 +29,10 @@ body {
   margin-right: 10px;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
 .gambar {
   background-image: url("Kumpulan Wallpaper Android Putih Keren.jfif");
   margin-top: 100px;
