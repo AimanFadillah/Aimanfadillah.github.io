@@ -1,0 +1,123 @@
+
+body{
+    background-color: white;
+}
+
+/* pembukaan */
+
+.pembukaan{
+    background-position: 0px -330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 100%;
+    height: 350px;
+}
+
+.pembukaan h1{
+    padding-top: 8%;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family:cursive;
+}
+
+/* gambaran umum */
+
+.gambaran_umum {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gambaran_umum h1 span{
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+    padding: 0px 10px 0px 10px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.gambaran_umum h1 span.anak{
+    padding-left: 1%;
+    background-color: rgb(188, 159, 188);
+    color: purple;
+    /* color: rgb(189, 156, 189); */
+}
+
+.gambaran_umum p {
+    margin-top: 20px;
+}
+
+/* unit */
+
+.unit{
+    background-color: rgb(189, 156, 189);
+    padding-left: 2%;
+}
+
+.unit h1 span{
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+    padding: 0px 10px 0px 10px ;
+}
+
+.unit h1 span.anak{
+    padding-left: 1%;
+    background-color: rgb(189, 156, 189);
+    color: purple;
+    /* color: rgb(189, 156, 189); */
+}
+
+.unit h2{
+    margin-top: 30px;
+}
+
+.unit h2.judul{
+    margin-top: 5px;
+    margin-left: -1%;
+    width: 400px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+}
+
+.unit h3 {
+    margin-top: 25px;
+    color: purple;
+    font-weight: bold;
+}
+
+.unit h4{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+@media screen and (max-width:576px) {
+
+    /* pembukaan */
+
+    .pembukaan{
+        background-position: 0px -100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    .pembukaan h1{
+        padding-top: 15%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .unit h2.judul{
+        margin-top: 5px;
+        width: 320px;
+        padding: 5px;
+        background-color: purple;
+    }
+}
