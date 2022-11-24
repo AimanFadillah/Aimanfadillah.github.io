@@ -137,7 +137,7 @@ a{
     color: black;
 }
 
-h6 {
+h6.footer{
     background-color: black;
     padding-bottom: 10px;
     margin-bottom: -10px;
