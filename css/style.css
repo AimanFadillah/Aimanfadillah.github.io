@@ -90,7 +90,7 @@ a{
 .skema h4{
     color: black;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /* unit */
@@ -120,11 +120,15 @@ a{
     /* color: rgb(189, 156, 189); */
 }
 
+.kumpulan_unit a:hover .unit h6{
+    color: purple;
+}
+
 
 .kumpulan_unit a .unit span{
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     background-color: purple;
     padding: 0px 10px 0px 10px ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -132,10 +136,15 @@ a{
 
 .kumpulan_unit a .unit{
     margin-bottom: 20px;
+    padding: 10px 10px 1px 10px;
     width: 100%;
     background-color: rgb(188, 159, 188);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     color: black;
+}
+
+.kumpulan_unit a .unit h6{
+    font-size: 21px;
 }
 
 h6.footer{
@@ -172,4 +181,34 @@ h6.footer{
         padding: 5px;
         background-color: purple;
     }
+
+    .skema h4{
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+
+    .kumpulan_unit a .unit span{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: purple;
+        padding: 0px 10px 0px 10px ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .kumpulan_unit a .unit{
+        margin-bottom: 20px;
+        padding: 0px;
+        width: 100%;
+        background-color: rgb(188, 159, 188);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        color: black;
+    }
+
+    .kumpulan_unit a .unit h6{
+        font-size: 15px;
+    }
+    
 }
