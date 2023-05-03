@@ -100,7 +100,7 @@ function sistemSuit (player,musuh) {
 
 function imgPilihan (pilihan) {
   if (pilihan === 0){
-    const img = `batu.png`
+    const img = `Batu.png`
     return img;
   }
 
