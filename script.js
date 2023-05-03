@@ -51,7 +51,7 @@ document.addEventListener("click",(e) => {
 
 function tampilkanPilihan () {
     mainWadah.innerHTML = `
-      <img  data-suit="0" class="pilihanSuit minecraft-item"  src="asset/batu.png" alt="batu">
+      <img  data-suit="0" class="pilihanSuit minecraft-item"  src="asset/Batu.png" alt="batu">
       <img  data-suit="1" class="pilihanSuit reverse-item"  src="asset/kertas.png" alt="kertas">
       <img  data-suit="2" class="pilihanSuit minecraft-item"  src="asset/gunting.png" alt="gunting">
     `
