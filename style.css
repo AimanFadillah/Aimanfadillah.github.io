@@ -1,0 +1,82 @@
+.minecraft-item {
+    animation: shake 1s infinite;
+  }
+  
+  .minecraft-item:hover{
+    width: 250px;
+  }
+  
+  .reverse-item {
+    border-radius: 50%;
+    animation: shike 1s infinite;
+  }
+  
+  .reverse-item:hover {
+    width: 250px;
+  }
+  
+  .only-shake {
+    animation: shake 1s infinite;
+  }
+  
+  .reverse-shake{
+    animation: shike 1s infinite;
+  
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(0px,0px) ; }
+    50% { transform: translate(0px,8px) ; }
+    100% { transform: translate(0px,0px) ; }
+  }
+  
+  @keyframes shike {
+    0% { transform: translate(0px,8px) ; }
+    50% { transform: translate(0px,0px) ; }
+    100% { transform: translate(0px,8px) ; }
+  }
+  
+  @keyframes modal {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  }
+  
+  .atas-and-hide {
+    animation: move-right 1s forwards;
+  }
+  
+  .bawah-and-hide {
+    animation: move-left 1s forwards;
+  }
+  
+  .modal {
+    animation: modal 0.7s forwards;
+  }
+  
+  @keyframes move-right {
+    0% { transform: translateY(1000%); }
+    100% { transform: translateY(0%); }
+  }
+  
+  @keyframes move-left {
+    0% { transform: translateY(-1000%); }
+    100% { transform: translateY(0%); }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .minecraft-item {
+      width: 100px;
+    }
+
+    .minecraft-item:hover {
+        width: 100px;
+    }
+
+    .reverse-item {
+      width: 100px;
+    }
+
+    .reverse-item:hover {
+      width: 100px;
+    }
+  }
