@@ -3,6 +3,7 @@ const victory = document.querySelector("#victory");
 const seimbang = document.querySelector("#seimbang");
 const lose = document.querySelector("#lose");
 const score = document.querySelector("#score")
+const playAgainButtons = document.querySelectorAll(".playAgain")
 const themeToggle = document.querySelector("#themeToggle");
 
 if(localStorage.getItem("theme") === "dark"){
@@ -21,15 +22,16 @@ if(localStorage.getItem("scoreSuit")){
     score.innerHTML = localStorage.getItem("scoreSuit")
 }
 
-
-document.addEventListener("click",(e) => {
-
-  if(e.target.classList.contains("playAgain")){
+playAgainButtons.forEach(button => {
+  button.addEventListener("click", () => {
     victory.style.display = "none";
     lose.style.display = "none";
     seimbang.style.display = "none";
-    tampilkanPilihan()
-  }
+    tampilkanPilihan();
+  });
+});
+
+mainWadah.addEventListener("click",(e) => {
 
   if(e.target.classList.contains("pilihanSuit")){
     const pilihan = e.target.getAttribute("data-suit");
