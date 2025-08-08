@@ -26,7 +26,7 @@ document.addEventListener("click",(e) => {
     mainWadah.innerHTML = 
     ` 
     <img  data-suit="2" style="opacity: 0;"  src="asset/${imgMusuh}" alt="musuh"><br> 
-    <img class="atas-and-hide" src="asset/${imgPlayer}" alt="palyer" >
+    <img class="atas-and-hide" src="asset/${imgPlayer}" alt="player" >
     `
 
     setTimeout(() => {
@@ -99,21 +99,15 @@ function sistemSuit (player,musuh) {
 }
 
 function imgPilihan (pilihan) {
-  if (pilihan === 0){
-    const img = `Batu.png`
-    return img;
-  }
-
-
-  if (pilihan === 1){
-    const img = `kertas.png`
-    return img;
-  }
-  
-  
-  if(pilihan === 2){
-      const img = `gunting.png`
-      return img;
+  switch (pilihan) {
+    case 0:
+      return `Batu.png`;
+    case 1:
+      return `kertas.png`;
+    case 2:
+      return `gunting.png`;
+    default:
+      throw new Error("Pilihan tidak valid");
   }
 }
 
