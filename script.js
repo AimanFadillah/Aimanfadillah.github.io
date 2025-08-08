@@ -8,13 +8,15 @@ const themeToggle = document.querySelector("#themeToggle");
 
 if(localStorage.getItem("theme") === "dark"){
     document.body.classList.add("dark-mode");
-    themeToggle.textContent = "Light Mode";
+    themeToggle.setAttribute("aria-label", "Switch to light mode");
+}else{
+    themeToggle.setAttribute("aria-label", "Switch to dark mode");
 }
 
 themeToggle.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
     const isDark = document.body.classList.contains("dark-mode");
-    themeToggle.textContent = isDark ? "Light Mode" : "Dark Mode";
+    themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
     localStorage.setItem("theme", isDark ? "dark" : "light");
 });
 
