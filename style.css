@@ -1,5 +1,41 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --modal-bg-victory: blue;
+    --modal-border-victory: green;
+    --modal-bg-lose: blue;
+    --modal-border-lose: red;
+    --modal-bg-seimbang: blue;
+    --modal-border-seimbang: gray;
+}
+
 body {
     overflow: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --modal-bg-victory: #001d3d;
+    --modal-bg-lose: #001d3d;
+    --modal-bg-seimbang: #001d3d;
+  }
+
+.modal-content-victory {
+    background-color: var(--modal-bg-victory);
+    border: 8px solid var(--modal-border-victory);
+  }
+
+.modal-content-lose {
+    background-color: var(--modal-bg-lose);
+    border: 8px solid var(--modal-border-lose);
+  }
+
+.modal-content-seimbang {
+    background-color: var(--modal-bg-seimbang);
+    border: 8px solid var(--modal-border-seimbang);
   }
 
 .minecraft-item {
