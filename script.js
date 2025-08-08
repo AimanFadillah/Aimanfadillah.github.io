@@ -4,6 +4,19 @@ const seimbang = document.querySelector("#seimbang");
 const lose = document.querySelector("#lose");
 const score = document.querySelector("#score")
 const playAgainButtons = document.querySelectorAll(".playAgain")
+const themeToggle = document.querySelector("#themeToggle");
+
+if(localStorage.getItem("theme") === "dark"){
+    document.body.classList.add("dark-mode");
+    themeToggle.textContent = "Light Mode";
+}
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    const isDark = document.body.classList.contains("dark-mode");
+    themeToggle.textContent = isDark ? "Light Mode" : "Dark Mode";
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+});
 
 if(localStorage.getItem("scoreSuit")){
     score.innerHTML = localStorage.getItem("scoreSuit")
