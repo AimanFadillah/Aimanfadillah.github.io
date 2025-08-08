@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+  }
+
 .minecraft-item {
     animation: shake 1s infinite;
   }
